@@ -1,52 +1,91 @@
+<div align="center">
+
 # ⚡ Guevara Benchmark
 
-<p align="center">
-  <img src="https://i.ibb.co/sJccxL0k/79644a17-c546-461a-a913-35da0f3b2e68.png" alt="Guevara Benchmark Banner" width="100%">
+<img src="https://i.ibb.co/sJccxL0k/79644a17-c546-461a-a913-35da0f3b2e68.png" width="100%" alt="Guevara Benchmark">
+
+<br>
+
+**High-performance asynchronous HTTP load testing & benchmarking tool**
+
+Built with **FastAPI**, **aiohttp**, and **asyncio** for developers who need fast, lightweight, and modern API benchmarking.
+
+<p>
+
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-Modern-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![aiohttp](https://img.shields.io/badge/aiohttp-Async-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
+
 </p>
 
+</div>
+
+---
+
+# ✨ Features
+
+<table>
+<tr>
+<td width="50%">
+
+- ⚡ High-performance asynchronous requests
+- 🚀 Configurable concurrency
+- 📊 Live Requests Per Second (RPS)
+- 📈 HTTP status statistics
+- 🖥️ Modern responsive Web UI
+
+</td>
+<td width="50%">
+
+- 📝 Custom HTTP headers
+- 📦 GET & POST support
+- 🔒 Transparent User-Agent by default
+- 🐍 Pure Python
+- 💨 Lightweight & easy to deploy
+
+</td>
+</tr>
+</table>
+
+---
+
+# 📸 Screenshots
+
+## Dashboard
+
 <p align="center">
-
-**A modern asynchronous HTTP load testing & benchmarking tool built with FastAPI and aiohttp.**
-
-Designed for developers to evaluate the performance of their own web applications and APIs.
-
+<img src="https://i.ibb.co/pvLF45J7/Screenshot-2026-06-26-032830.png" width="95%">
 </p>
 
 ---
 
-## ✨ Features
+## Benchmark Result
 
-* ⚡ High-performance asynchronous requests
-* 🚀 Configurable concurrency
-* 📊 Requests per second (RPS) calculation
-* 📈 HTTP status code statistics
-* 🖥️ Modern web interface
-* 📝 Custom headers support
-* 📦 GET & POST requests
-* 🔒 Transparent User-Agent by default
-* 🐍 Pure Python
+<p align="center">
+<img src="https://i.ibb.co/qYDVrQyG/Screenshot-2026-06-26-034142.png" width="95%">
+</p>
 
 ---
 
-## 📸 Screenshot
+# 🚀 Installation
 
+<details open>
 
-
-![Guevara UI](https://i.ibb.co/pvLF45J7/Screenshot-2026-06-26-032830.png)
-some Result with 5 sec test (https://i.ibb.co/qYDVrQyG/Screenshot-2026-06-26-034142.png)
----
-
-## 🚀 Installation
+<summary><b>Quick Start</b></summary>
 
 ```bash
 git clone https://github.com/AlguevaraSec/Guevara-benchmark.git
+
 cd Guevara-benchmark
 
 pip install -r requirements.txt
 
 python main.py
 
-or uvicorn main:app --reload
+# or
+
+uvicorn main:app --reload
 ```
 
 Open your browser:
@@ -55,11 +94,13 @@ Open your browser:
 http://127.0.0.1:8000
 ```
 
+</details>
+
 ---
 
-## 📊 Example Result
+# 📊 Example Result
 
-```
+```text
 BENCHMARK COMPLETE
 
 ----------------------------------------
@@ -74,79 +115,91 @@ HTTP 522 : 13
 
 ---
 
-## ⚙️ Technologies
+# ⚙️ Built With
 
-* FastAPI
-* aiohttp
-* asyncio
-* Uvicorn
-* HTML/CSS/JavaScript
+| Technology | Purpose |
+|------------|---------|
+| FastAPI | Backend Framework |
+| aiohttp | Async HTTP Client |
+| asyncio | Concurrency |
+| Uvicorn | ASGI Server |
+| HTML / CSS / JavaScript | Frontend |
 
 ---
 
 # 🛡️ Protect Your Server
 
-If your application is exposed to the Internet, you should protect it against excessive traffic.
+Benchmarking is useful—but every public service should also be protected.
 
-### ✅ Use a Rate Limiter
+## ✅ Rate Limiting
 
-Implement request rate limiting on your application or reverse proxy.
+Implement request limits at your application or reverse proxy.
 
-Examples:
+Recommended options:
 
-* FastAPI rate limiting middleware
-* Nginx rate limiting
-* Traefik rate limiting
-
----
-
-### ☁️ Use Cloudflare
-
-Cloudflare's free plan is easy to set up and provides:
-
-* DDoS protection L4 & L7 (with powerfull rules)
-* Recommended changing your main server ip when use cloudflare.
-* Web Application Firewall (WAF)
-* Bot protection
-* Rate limiting (advanced features vary by plan)
-* Global CDN
-
-For most small and medium websites, enabling Cloudflare is one of the quickest ways to improve resilience.
+- FastAPI Rate Limiting Middleware
+- Nginx Rate Limiting
+- Traefik Rate Limiting
 
 ---
 
-## ⚠️ Educational & Authorized Use Only
+## ☁️ Cloudflare
+
+Cloudflare's free plan provides excellent protection for most applications.
+
+### Benefits
+
+- 🛡️ Layer 4 & Layer 7 DDoS Protection
+- 🔥 Web Application Firewall (WAF)
+- 🤖 Bot Protection
+- ⚡ Global CDN
+- 🚦 Rate Limiting *(advanced features depend on plan)*
+- 🔒 Recommended to hide your origin server IP behind Cloudflare
+
+For small and medium-sized websites, Cloudflare is one of the easiest ways to improve availability and resilience.
+
+---
+
+# ⚠️ Educational & Authorized Use Only
 
 This project is intended **only** for:
 
-* Performance testing
-* Load benchmarking
-* Capacity planning
-* Educational purposes
-* Testing systems that **you own or are explicitly authorized to test**
+- ✅ Performance testing
+- ✅ Load benchmarking
+- ✅ Capacity planning
+- ✅ Educational purposes
+- ✅ Testing systems you own or are explicitly authorized to test
 
-Do **not** use this software against systems without permission.
+> **Do not use this software against systems without permission.**
 
-I assume **no responsibility** for misuse or damage caused by this project.
-
----
-
-## 🤝 Contributing
-
-Contributions, improvements, and bug reports are welcome.
-
-Feel free to open an Issue or submit a Pull Request.
+The author assumes **no responsibility** for misuse or any damage caused by this software.
 
 ---
 
-## 📄 License
+# 🤝 Contributing
 
-MIT License
+Contributions are welcome!
+
+If you'd like to improve Guevara Benchmark:
+
+- 🐞 Open an Issue
+- 💡 Suggest a Feature
+- 🔧 Submit a Pull Request
+
+Every contribution is appreciated.
 
 ---
 
-<p align="center">
+# 📄 License
 
-Made with smoke by **Guevara**
+Distributed under the **MIT License**.
 
-</p>
+---
+
+<div align="center">
+
+### ⭐ If you found this project useful, consider giving it a Star!
+
+Made with 💨 by **Guevara**
+
+</div>
