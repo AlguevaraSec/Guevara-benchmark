@@ -200,6 +200,6 @@ Distributed under the **MIT License**.
 
 ### ⭐ If you found this project useful, consider giving it a Star!
 
-Made with 💨 by **Guevara**
+Made with smoke by **Guevara**
 
 </div>
