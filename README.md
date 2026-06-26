@@ -1,7 +1,7 @@
 # ⚡ Guevara Benchmark
 
 <p align="center">
-  <img src="https://your-image-url-here.com/banner.png" alt="Guevara Benchmark Banner" width="100%">
+  <img src="[https://your-image-url-here.com/banner.png](https://i.ibb.co/sJccxL0k/79644a17-c546-461a-a913-35da0f3b2e68.png)" alt="Guevara Benchmark Banner" width="100%">
 </p>
 
 <p align="center">
